@@ -6,26 +6,37 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
+  background-image: url('./asset/pic/_MG_2973v3.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
 
   &__hero {
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 600px;
     max-width: 1000px;
-    height: 200px;
+    height: 300px;
+    background: #fff;
+    padding: 30px; 
+    box-sizing: border-box;
   }
 
   &__title-side {
     @include flex-col;
     align-items: flex-end;
+    padding: 20px 0; 
   }
 
   &__title {
     font-size: 3rem;
+    margin-bottom: 10px;
+
   }
 
   &__tagline {
     font-size: 1.64rem;
+    margin-bottom: 10px;
+
   }
 
   &__link {
@@ -53,8 +64,13 @@
     margin: 0 20px;
   }
 
+  &__project-side {
+    padding: 25px 0; 
+  }
+
   &__section {
     font-size: 2.5rem;
+    margin-bottom: 23px;
   }
 
   &__li {
