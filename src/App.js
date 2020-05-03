@@ -9,8 +9,7 @@ export default class App extends Component {
     return (
       <section className="landing">
         <div className="landing__hero">
-          <div className="landing__title-side">
-            <div>
+            <div className="landing__title-side">
               <h1 className="landing__title">Kelly K Ho</h1>
               <p className="landing__tagline">a cyclist developer</p>
               <div className="landing__link">
@@ -29,7 +28,7 @@ export default class App extends Component {
             <div className="landing__divider" />
   
             <div className="landing__project-side">
-              <h2 className="landing__section">projects</h2>
+              <h2 className="landing__section">My projects</h2>
               <ul className="landing__ul">
                 <li className="landing__li">
                   <a className="landing__a" href="https://github.com/cycduck/ttc">
@@ -38,7 +37,6 @@ export default class App extends Component {
                 </li>
               </ul>
             </div>
-          </div>
         </div>
       </section>
     );
