@@ -1,18 +1,52 @@
-.app {
-  width: 100vw;
-  height: 100vh;
+@import './styles/base.scss';
+
+.landing {
   display: flex;
   justify-content: center;
+  width: 100vw;
+  height: 100vh;
   align-items: center;
 
-  &__container {
+  &__hero {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    max-width: 1000px;
+  }
+
+  &__title-side {
     height: 200px;
     display: flex;
+  }
+
+  &__title {
+    font-size: 3rem;
+  }
+
+  &__tagline {
+    font-size: 1.64rem;
+  }
+
+  &__link {
+    display: flex;
+  }
+
+  &__a:focus {
+    outline: none;
+  }
+
+  &__icon {
+    width: 20px;
   }
 
   &__divider {
     width: 1px;
     height: 100%;
     background: black;
+    margin: 0 20px;
+  }
+
+  &__project-side {
+
   }
 }

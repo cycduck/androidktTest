@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+$font-size-regular: 1rem;
+$font-size-large: 1.5rem;
+$font-size-larger: 2rem;
+$font-size-xlarge: 2.25rem;
+$font-size-xxlarge: 3.75rem;
+$font-size-medium: 0.875rem;
+$font-size-small: 0.8125rem;
+
+$instock-blue: #004892;
+$instock-blue-dark: #002f5f;
+$brainflix-blue-2: #0065ad;
+$brainflix-blue: #0095ff;
+$black: #323232;
+$silver: #afafaf;
+$mercury: #e1e1e1;
+$alabaster: #fafafa;
+$white: #ffffff;
+
+@mixin tablet {
+  @media (min-width: 768px) and (max-width: 1439px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+// @font-face {
+//   font-family: "bold";
+//   src: url(../assets/global-fonts/AvenirNextProLT/Linotype-AvenirNextLTPro-Bold.otf);
+// }
+// @font-face {
+//   font-family: "demi";
+//   src: url(../assets/global-fonts/AvenirNextProLT/Linotype-AvenirNextLTPro-Demi.otf);
+// }
+// @font-face {
+//   font-family: "regular";
+//   src: url(../assets/global-fonts/AvenirNextProLT/Linotype-AvenirNextLTPro-Regular.otf);
+// }
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*,
+* ::before,
+* ::after {
+  box-sizing: inherit;
+}
